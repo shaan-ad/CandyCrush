@@ -1,0 +1,62 @@
+/* Copyright (c) 2017 MIT 6.813/6.831 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+ 
+#firstColumn, #mainColumn, #lastColumn { 
+	padding: 10px; /*10 px padding between each column*/
+	margin: auto;
+}
+
+#gameTitle {
+	font-family: 'Courgette', cursive; /*Google Font*/
+	font-weight: bold; 
+	font-size: 70px;
+	color: red;
+}
+
+body {
+	margin: auto; 
+	vertical-align: middle;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+	font-family: 'Courgette', cursive; /*Google Font*/
+	font-size: 20px;
+}
+
+#arrowBtns {
+	margin: auto; 
+	margin-bottom: 20px; 
+}
+
+.btn {
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+
+.btn:disabled {
+  	background-color: lightgrey;
+  	color: white;
+}
+
+#userMove {
+  	width: 50px;
+  	margin-bottom: 20px;
+}
+
+#gameBoard {
+	width: 320px; /*width and height of 320px as mentioned in the requirements*/
+	height: 320px;
+	margin: auto;
+}
+
+.candy {
+	font-family: 'Courgette', cursive; /*Google Font*/
+	text-align: center;
+	color: white;
+ 	width: 30px;
+ 	border-radius: 18px; /*To make the candies look round and candy-like*/
+}
